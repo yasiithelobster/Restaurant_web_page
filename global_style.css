@@ -1,0 +1,120 @@
+/* background image */
+body {
+background-image: url(images/global/background.jpeg); /* path to the image */
+background-attachment: fixed;  /* makes the background fixed */
+background-repeat: repeat;  /*makes the background repeat */
+}
+
+/* texts of throughout the web site */
+*{
+font:bold ;
+font-family: 'Times New Roman';
+}
+
+/* header of the web page */
+.header {
+text-align: left;
+padding: 5px 60px 0px 0px; /* top right bottom left */
+position: relative; /* position relative to allow absolute positioning of cart */
+}
+
+.header h1 {
+font-family: zapfino; 
+font-size: 60px;
+}
+
+/* logo */
+.header img {
+float: left; /* float the image to the left */
+margin-right: 50px;  /* space between image and text */
+}
+
+/* cart icon */
+.cart {
+position: absolute;
+right: 0;
+top: 50%;
+transform: translateY(-50%); /* centers the cart icon vertically */
+}
+
+.carticon {
+display: flex;
+flex-direction: column;
+margin-top: 10px;
+}
+
+/* navigation bar */
+.navbar {
+display: flex; /* display flex to align items in a row */
+justify-content: space-between; /* space between items */
+align-items: center; /* center items vertically */
+background-color: rgb(119, 38, 38); 
+padding: 5px 30px;/* top right bottom left */
+}
+
+/* navigation bar elements */
+.nav-links{
+list-style: none; /* remove bullet points */
+display: flex; /* display flex to align items in a row */
+gap: 20px; /* space between items */
+}
+
+
+.nav-links li{
+position: relative; /* position relative to allow absolute positioning of dropdown */
+padding-bottom: 2px; /* space below the text */
+}
+
+/* navigation bar elements */
+.nav-links a{ 
+text-decoration: none; /* remove underline */
+color: white; /* color of the text */
+font-weight: bold; /* make text bold */
+font-family: 'Times New Roman'; 
+font-size: 20px;  
+padding: 5px 10px; 
+transition: text-decoration 10s ease; /* smooth transition */
+}
+
+/* pseudo-element for underline */
+.nav-links a::after { 
+content: ''; /* empty content for pseudo-element */
+position: absolute; 
+left: 0; 
+right: 0;
+bottom: 0; /* position at the bottom */
+height: 2px; /* Adjust height of the underline */
+background: white; /* Color of the underline */
+transform: scaleX(0); /* Start with no width */
+transition: transform 0.3s ease; /* Smooth transition */
+}
+
+/* Show underline on hover */
+.nav-links a:hover::after, .nav-links .active::after { 
+transform: scaleX(1); /* Expand to full width on hover */
+}
+
+/* Hotline number */
+.hotline{
+display: flex;
+align-items: center;
+color: white;
+font-weight: bold;
+}
+
+.footer {
+background-color: rgb(119, 38, 38); 
+color: #e4e4e4; 
+height: 100px;
+}
+
+/* "Rasa mandir" part in footer */
+.footer a:link, .footer a:visited {
+color: rgb(255, 255, 255)
+}
+
+.footer a:active, .footer a:hover { 
+color: rgb(255, 255, 255)
+}
+
+

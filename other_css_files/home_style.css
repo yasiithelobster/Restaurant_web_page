@@ -1,0 +1,163 @@
+/* Featured dishes */
+#sub1 {
+font-family:  'Times New Roman'; /* font-family for the text */
+text-align:center; 
+color: rgb(119, 38, 38);
+font-size: 50px;
+text-decoration: underline;
+margin-bottom: 1px;
+}
+
+.image-menu {
+display: flex;
+justify-content: center;
+}
+
+.image-menu img {
+padding-bottom: 30px;
+width: 350px;
+height: auto;
+}
+
+/* menu items container */
+.menu-container {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 100px;
+padding: 20px;
+}
+
+/* each menu item */
+.menu-item {
+background-color: white;
+border-radius: 10px;
+padding: 15px;
+text-align: center;
+width: 250px;
+}
+
+.menu-item img { 
+border-radius: 10px;
+width: 150px;
+height: 150px;
+}
+
+/* add to cart button */
+.menu-container a:link, .menu-container a:visited {
+background-color: rgb(119, 38, 38);
+color: rgb(255, 255, 255);
+padding: 10px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+}
+
+.menu-container a:hover,  .menu-container a:active { /* Style for when the button is hovered over */
+background-color: black;
+text-decoration: none;
+}
+
+/* name of the menu item(dish) */
+.menu-item p {
+margin: 10px 0;
+font-size: 20px;
+font-weight: bold;
+}
+
+/* Customer feedbacks */
+#sub2 { 
+font-family:  'Times New Roman'; /* font-family for the text */
+padding-top: 40px;
+text-align:center; 
+color: rgb(119, 38, 38);
+font-size: 50px;
+text-decoration: underline;
+margin-bottom: 1px;
+}
+
+.image-menu-2 {
+display: flex;
+justify-content: center;
+}
+
+.image-menu-2 img {
+padding-bottom: 0px;
+width: 435px;
+height: auto;
+}
+
+.menu-container .add-to-cart-btn { /* Add to Cart button */
+background-color: rgb(119, 38, 38);  /* Background color */
+color: rgb(255, 255, 255); /* Text color */
+padding: 10px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+border: none; /* Buttons usually have a default border */
+border-radius: 5px; /* If you had rounded corners */
+cursor: pointer; /* Good practice for buttons */
+font-size: inherit; /* Inherit font size from parent */
+}
+
+.menu-container .add-to-cart-btn:hover { /* Style for when the button is hovered over */
+background-color: black;
+text-decoration: none;
+}
+
+.menu-container .add-to-cart-btn:active { /* Style for when the button is actively being clicked */
+background-color: darkred; /* Example */
+}
+
+.feedback-section {
+padding-top: 40px;
+padding-bottom: 50px;
+}
+
+/* feedbacks container */
+.feedback-container {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 20px;
+padding: 20px;
+}
+
+/* each feedback item */
+.feedback-item {
+color: rgb(119, 38, 38); /* Text color */
+background-color: rgba(255, 255, 255, 0.8); /* Background color */
+border-radius: 10px;
+padding: 15px;
+text-align: center;
+width: 250px;
+}
+
+.feedback-item img {
+border-radius: 50%;
+width: 50px;
+height: 50px;
+margin-bottom: 10px;
+}
+
+.user {
+display: flex;
+align-items: center;
+}
+
+.user img {
+border-radius: 50%;
+width: 50px;
+height: 50px;
+margin-right: 10px;
+}
+
+.user-name {
+margin: 0;
+font-weight: bold;
+}
+
+.feedback-text {
+margin: 5px 0;
+word-wrap: break-word;
+}

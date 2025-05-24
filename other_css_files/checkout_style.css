@@ -1,0 +1,131 @@
+.breadcrumb {
+text-align: center;
+font-size: 1.1em; /* Increased font size */
+color: black;
+margin: 15px 20px;
+padding: 5px 0; /* Add some vertical padding for the background */
+}
+
+.breadcrumb a,
+.breadcrumb span {
+background-color: rgba(255, 255, 255, 0.8); /* Light gray background */
+padding: 3px 8px; /* Add padding around the text */
+border-radius: 5px; /* Optional: Round the corners */
+text-decoration: none; /* Remove default underline from spans */
+}
+
+.breadcrumb a {
+color: black; /* Link color */
+font-weight: bold; /* Make links bold */
+}
+
+.breadcrumb a:hover {
+text-decoration: underline;
+}
+
+.breadcrumb span {
+text-decoration: underline; 
+margin: 0 5px;
+color: black;
+font-weight: bold;
+}
+
+.breadcrumb span:last-child::after {
+content: "";
+}
+
+.breadcrumb span.separator { /* Style for the separator */
+background-color: transparent; /* Make separator background transparent */
+padding:1px; /* Adjust separator spacing */
+font-weight: normal; /* Make separator not bold */
+border-radius: 0;
+text-decoration: none;
+}
+
+#checkout-title {
+text-align:center; 
+color: rgb(119, 38, 38);
+font-family:  'Times New Roman';
+font-size: 50px;
+text-decoration: underline;
+margin-bottom: 1px;
+}
+
+.checkout-container {
+display: flex;
+justify-content: space-between;
+gap: 20px;
+padding: 20px;
+}
+
+.order-summary, .billing-info {
+background-color: rgba(255, 255, 255, 0.8);
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+width: 48%;
+}
+
+.order-summary h2, .billing-info h2 {
+font-size: 28px;
+text-align: center;
+color: rgb(119, 38, 38);
+}
+
+.order-summary-table {
+width: 100%;
+border-collapse: collapse;
+margin-top: 20px;
+}
+
+.order-summary-table th, .order-summary-table td {
+padding: 10px;
+border: 1px solid whitel;
+text-align: center;
+}
+
+/* Form styling inside billing info */
+.billing-info label {
+display: block;        /* Ensure labels take up full width */
+margin-bottom: 8px;    /* Add space between label and input */
+font-size: 16px;       /* Make label text slightly larger */
+font-weight: bold;     /* Make label text bold */
+}
+
+.billing-info input, .billing-info textarea {
+width: 95%;           /* Make inputs fill the container width */
+padding: 10px;         /* Add padding inside inputs */
+margin-bottom: 20px;   /* Add space between fields */
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+.billing-info textarea {
+resize: vertical;      /* Allow the user to resize the textarea vertically */
+min-height: 50px;     /* Ensure textarea has a decent height */
+}
+
+.checkout-button {
+display: block;
+background-color: rgb(119, 38, 38);
+color: white;
+margin-top: 20px;
+padding: 10px 10px;
+width: 100%;
+font-size: 18px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.checkout-button:hover {
+background-color: black;
+}
+
+footer {
+padding: 10px;
+background-color: #fff;
+text-align: center;
+margin-top: 40px;
+}

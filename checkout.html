@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Checkout</title>
+        <link rel="icon" type="image/png" href="images/global/logo.png">
+        <link rel="stylesheet" href="global_style.css">
+        <link rel="stylesheet" href="other_css_files/checkout_style.css">
+    </head>
+    <body>
+        <header class="header">
+            <a href="restaurant_home.html">
+                <img src="images/global/logo.png" alt="logo" width="250" height="250">
+            </a>
+            <h1>Rasa Mandir</h1>
+        </header>
+
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="restaurant_home.html">Home</a></li>
+                <li><a href="restaurant_menu.html">Menu</a></li>
+                <li><a href="restaurant_cart.html">Cart</a></li>
+                <li><a href="restaurant_aboutus.html">About Us</a></li>
+                <li><a href="restaurant_contact_us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <div class="breadcrumb">
+            <a href="restaurant_cart.html">Cart</a>
+            <span>/</span>
+            <span>Checkout</span>
+        </div>
+
+        <h1 id="checkout-title">Checkout</h1>
+
+        <div class="checkout-container">
+            <div class="order-summary">
+                <h2>Order Summary</h2>
+                <table class="order-summary-table" id="order-summary-table">
+                    <!-- Order items will appear here dynamically -->
+                </table>
+                <h3 id="order-total">Total: Rs.0.00</h3>
+            </div>
+
+            <div class="billing-info">
+                <h2>Billing Information</h2>
+                <form id="billing-form">
+                    <label for="name">Full Name*</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email*</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="phone">Phone Number*</label>
+                    <input type="tel" id="phone" name="phone" required>
+
+                    <label for="address">Shipping Address*</label>
+                    <textarea id="address" name="address" rows="4" required></textarea>
+
+                    <button type="submit" class="checkout-button">Proceed to Payment</button>
+                </form>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <p style="text-align: center;">2025.<a href="restaurant_home.html" style="text-decoration: underline;">Rasa Mandir</a>. All rights reserved</p>
+        </footer>
+
+        <script src="java_script/script.js"></script>
+    </body>
+</html>

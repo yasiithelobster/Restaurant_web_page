@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Cart</title>
+        <link rel="icon" type="image/png" href="images/global/logo.png">
+        <link rel="stylesheet" href="global_style.css">
+        <link rel="stylesheet" href="other_css_files/cart_style.css">
+    </head>
+
+    <body>
+        <header class="header">
+            <a href="restaurant_home.html">
+                <img src="images/global/logo.png" alt="logo" width="250" height="250">
+            </a>
+            <h1>Rasa Mandir</h1>
+            <div class="cart">
+                <div class="carticon">
+                    <a href="restaurant_cart.html">
+                        <img src="images/global/shopping_bag.svg" alt="cart" width="50" height="50">
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="restaurant_home.html">Home</a></li>
+                <li><a href="restaurant_menu.html">Menu</a></li>
+                <li><a href="restaurant_cart.html" class="active">Cart</a></li>
+                <li><a href="restaurant_aboutus.html">About Us</a></li>
+                <li><a href="restaurant_contact_us.html">Contact Us</a></li>
+            </ul>
+            <div class="hotline">
+                <span>Hotline</span>
+                <p style="padding-left: 5px;"> +94 112 349 872</p>
+            </div>
+        </nav>
+
+        <h1 id="your-cart">Your cart</h1>
+
+        <div class="image-menu">
+            <img src="images/menu/pattern.jpeg" alt="pattern">
+        </div>
+
+        <div class="cart-box">
+            <div class="cart-section">
+                <div class="cart-container">
+                    <table class="cart-table">
+                        <tr>
+                            <th>Product</th>
+                            <th>Name</th>
+                            <th>Quantity</th>
+                            <th>Price</th>
+                            <th>Remove</th> 
+                        </tr>
+                    </table>
+
+                    <h2 style="text-align: right; margin-right: 80px; font-size: 30px;">Subtotal</h2>
+                    
+                    <a href="checkout.html" class="checkout">Checkout</a>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <p style="text-align: center; padding-top: 20px;">2025.<a style="text-decoration: underline;" href="restaurant_home.html">Rasa mandir.</a> All rights reserved</p>
+        </footer>
+
+        <script src="java_script/script.js"></script>
+    </body>
+</html>

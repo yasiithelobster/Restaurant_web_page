@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+    <item>
+        <name>Sri lankan Kiri Bath</name>
+        <image>images/menu/sri_lankan/milkrice.jpeg</image>
+        <category>mains</category>
+        <price>850</price>
+        <description>Kiri bath, or milk rice, is a traditional Sri Lankan dish made with glutinous rice cooked in coconut milk. white rice simmered in creamy coconut milk until it's luxuriously soft and slightly sweet. It's a naturally delicious and comforting dish, perfect on its own or with a flavorful side.</description>
+    </item>
+    <item>
+        <name>Rice and Curry with Chicken</name>
+        <image>images/menu/sri_lankan/rice_and_curry_chicken.jpeg</image>
+        <category>mains</category>
+        <price>650</price>
+        <description>Sri Lankan rice and curry is a traditional dish that features a serving of rice accompanied by a variety of flavorful curries, including lentils, vegetables, and meat. The dish is known for its vibrant colors and aromatic spices, making it a beloved staple in Sri Lankan cuisine.</description>
+    </item>
+    <item>
+        <name>Rice and Curry with Fish</name>
+        <image>images/menu/sri_lankan/rice_and_curry_fish.jpg</image>
+        <category>mains</category>
+        <price>700</price>
+        <description>Sri Lankan rice and fish curry is a classic meal with rice served alongside spicy lentils, vegetables, and flavorful fish curry. It’s known for its rich spices and vibrant colors.</description>
+    </item>
+    <item>
+        <name>Rice and Curry</name>
+        <image>images/menu/sri_lankan/rice_and_curry_vege.jpeg</image>
+        <category>mains</category>
+        <price>500</price>
+        <description>Sri Lankan rice and curry is a hearty local dish with steamed rice and a variety of spiced sides like dhal, veggies, and meat or fish, offering bold flavors in every bite.</description>
+    </item>
+    <item>
+        <name>Chicken Biriyani</name>
+        <image>images/menu/Indian/Biryani.jpeg</image>
+        <category>mains</category>
+        <price>990</price>
+        <description>Chicken biryani is a flavorful and aromatic rice dish made with marinated chicken, fragrant basmati rice, and a blend of spices. It's a popular dish in Indian cuisine, known for its rich flavors and vibrant colors.</description>
+    </item>
+    <item>
+        <name>Masala Dosai</name>
+        <image>images/menu/Indian/doasi.jpeg</image>
+        <category>mains</category>
+        <price>550</price>
+        <description>Masala dosai is a South Indian dish made of fermented rice and lentil batter, filled with spiced mashed potatoes, and served with chutneys and sambar.</description>
+    </item>
+    <item>
+        <name>Paratha</name>
+        <image>images/menu/Indian/paratha.jpeg</image>
+        <category>mains</category>
+        <price>450</price>
+        <description>Paratha is a flaky, layered Indian flatbread made from whole wheat flour, stuffed with vegetables and spices, and cooked on a griddle until golden brown.</description>
+    </item>
+    <item>
+        <name>Belimal</name>
+        <image>images/menu/drinks/belimal.jpeg</image>
+        <category>drinks</category>
+        <price>200</price>
+        <description>Belimal is a traditional Sri Lankan herbal drink made from the dried fruit of the Bael tree, known for its refreshing taste and health benefits.</description>
+    </item>
+    <item>
+        <name>Lime Juice</name>
+        <image>images/menu/drinks/lime_juice.jpeg</image>
+        <category>drinks</category>
+        <price>250</price>
+        <description>Lime juice is a refreshing beverage made from freshly squeezed limes, Sweetened and served chilled, perfect for quenching thirst on a hot day.</description>
+    </item>
+    <item>
+        <name>Milk Tea</name>
+        <image>images/menu/drinks/milk_tea.jpeg</image>
+        <category>drinks</category>
+        <price>150</price>
+        <description>Milk tea is a comforting beverage made by brewing black tea with milk and sugar, creating a creamy and aromatic drink.</description>
+    </item>
+    <item>
+        <name>Orange Juice</name>
+        <image>images/menu/drinks/orange_juice.jpeg</image>
+        <category>drinks</category>
+        <price>300</price>
+        <description>Orange juice is a refreshing drink made from freshly squeezed oranges, known for its vibrant color and sweet, tangy flavor.</description>
+    </item>
+    <item>
+        <name>Plain Tea</name>
+        <image>images/menu/drinks/plain_tea.jpeg</image>
+        <category>drinks</category>
+        <price>100</price>
+        <description>Plain tea is a simple and soothing beverage made by steeping tea leaves in hot water, offering a warm and comforting drink without any added flavors.</description>
+    </item>
+    <item>
+        <name>Biscuit Pudding</name>
+        <image>images/menu/desserts/biscuit_pudding.jpeg</image>
+        <category>desserts</category>
+        <price>350</price>
+        <description>Biscuit pudding is a delightful dessert made with layers of crushed biscuits, creamy custard, and chocolate or fruit toppings, creating a rich and indulgent treat.</description>
+    </item>
+    <item>
+        <name>Caramel Pudding</name>
+        <image>images/menu/desserts/caramel_pudding.jpeg</image>
+        <category>desserts</category>
+        <price>400</price>
+        <description>Caramel pudding is a smooth and creamy dessert made with eggs, milk, and sugar, topped with a rich caramel sauce for a sweet finish.</description>
+    </item>
+    <item>
+        <name>Fruit Salad</name>
+        <image>images/menu/desserts/fruit_salad.jpeg</image>
+        <category>desserts</category>
+        <price>300</price>
+        <description>Fruit salad is a refreshing mix of seasonal fruits, often drizzled with honey or lime juice, making it a healthy and colorful dessert option.</description>
+    </item>
+    <item>
+        <name>Ice Cream Sundae</name>
+        <image>images/menu/desserts/ice_cream_sundae.jpeg</image>
+        <category>desserts</category>
+        <price>500</price>
+        <description>Ice cream sundae is a classic dessert made with scoops of ice cream topped with syrup, nuts, whipped cream, and a cherry, creating a deliciously indulgent treat.</description>
+    </item>
+    <item>
+        <name>Chili Crisp Noodles</name>
+        <image>images/menu/Chinese/Chili-crisp-noodles.jpeg</image>
+        <category>mains</category>
+        <price>800</price>
+        <description>Chili crisp noodles are a spicy and flavorful dish made with stir-fried noodles tossed in a chili oil sauce, topped with crispy garlic and scallions for added crunch.</description>
+    </item>
+    <item>
+        <name>Dumplings</name>
+        <image>images/menu/Chinese/dumplings.jpeg</image>
+        <category>appetizers</category>
+        <price>600</price>
+        <description>Dumplings are a popular Chinese dish made of thin dough filled with meat or vegetables, steamed or fried to perfection, often served with dipping sauce.</description>
+    </item>
+    <item>
+        <name>Supreme Soy Noodles</name>
+        <image>images/menu/Chinese/supreme_soy_noodle.jpeg</image>
+        <category>mains</category>
+        <price>700</price>
+        <description>Supreme soy noodles are a savory dish made with stir-fried noodles tossed in a rich soy sauce, mixed with vegetables and protein for a satisfying meal.</description>
+    </item>
+    <item>
+        <name>Air Fryer Zucchini</name>
+        <image>images/menu/appatizers/Air_fryer_zucchini.jpeg</image>
+        <category>appetizers</category>
+        <price>700</price>
+        <description>Air fryer zucchini is a healthy and crispy appetizer made by air frying sliced zucchini, seasoned with spices, for a guilt-free snack.</description>
+    </item>
+    <item>
+        <name>Cheese Puffs</name>
+        <image>images/menu/appatizers/chese_puffs.jpeg</image>
+        <category>appetizers</category>
+        <price>600</price>
+        <description>Cheese puffs are light and airy pastries filled with melted cheese, baked until golden brown, making them a delicious and cheesy snack.</description>
+    </item>
+    <item>
+        <name>Party Meatballs</name>
+        <image>images/menu/appatizers/party_meatballs.jpeg</image>
+        <category>appetizers</category>
+        <price>800</price>
+        <description>Party meatballs are savory bite-sized meatballs made with ground meat, breadcrumbs, and spices, baked or fried and served with dipping sauce for a perfect appetizer.</description>
+    </item>
+    <item>
+        <name>Sausage Fried Rice</name>
+        <image>images/menu/Chinese/sausage_fried_rice.jpeg</image>
+        <category>mains</category>
+        <price>900</price>
+        <description>Sausage fried rice is a flavorful dish made with stir-fried rice, mixed with sliced sausages, vegetables, and soy sauce for a delicious meal.</description>
+    </item>
+    <item>
+        <name>Idli</name>
+        <image>images/menu/Indian/idli.jpeg</image>
+        <category>mains</category>
+        <price>500</price>
+        <description>Idli is a traditional South Indian steamed rice cake made from fermented rice and lentil batter, served with chutney and sambar for a wholesome breakfast or snack.</description>
+    </item>
+</menu>

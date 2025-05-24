@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Home</title>
+        <link rel="icon" type="image/png" href="images/global/logo.png">
+        <link rel="stylesheet" href="global_style.css"> 
+        <link rel="stylesheet" href="other_css_files/home_style.css">
+    </head>
+
+    <body>
+        <header class="header">
+            <a href="restaurant_home.html">
+            <img src="images/global/logo.png" alt="restaurant_logo" width="250" height="250"> 
+            </a>
+            <h1>Rasa Mandir</h1> 
+            <div class="cart">
+                <div class="carticon">
+                <a href="restaurant_cart.html">
+                <img src="images/global/shopping_bag.svg" alt="cart" width="50" height="50">
+                </a>
+                </div>
+            </div>
+        </header>
+
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="restaurant_home.html" class="active">Home</a></li>
+                <li><a href="restaurant_menu.html">Menu</a></li>
+                <li><a href="restaurant_cart.html">Cart</a></li>
+                <li><a href="restaurant_aboutus.html">About Us</a></li>
+                <li><a href="restaurant_contact_us.html">Contact Us</a></li>
+            </ul>
+            <div class="hotline">
+                <span>Hotline</span>
+                <p style="padding-left: 5px;"> +94 112 349 872</p>
+            </div>    
+        </nav>
+
+        <div style="padding-top: 10px;">
+            <video autoplay loop muted style="width: 100%; height: auto;">
+                <source src="videos/main_video.mp4" type="video/mp4">
+                <track src="caption_files/main_video_en.vtt" label="English" kind="captions" srclang="en">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <h2 id="sub1">Featured Dishes</h2>
+
+        <div class="image-menu">
+            <img src="images/home/pattern_2.jpeg" alt="pattern">
+        </div>
+
+        <div class="menu-container">
+            <div class="menu-item">
+                <img src="images/menu/sri_lankan/milkrice.jpeg" alt="milkrice" width="200" height="200">
+                <p>Sri Lankan Kiri Bath</p>
+                <p>Rs.850</p>
+                <a href="#" class="add-to-cart-btn" 
+                   data-name="Sri Lankan Kiri Bath" 
+                   data-price="850" 
+                   data-image="images/menu/sri_lankan/milkrice.jpeg">Add to cart</a>
+            </div>
+            <div class="menu-item">
+                <img src="images/menu/Indian/Biryani.jpeg" alt="Biriyani" width="200" height="200">
+                <p>Chicken Biriyani</p>
+                <p>Rs.990</p>
+                <a href="#" class="add-to-cart-btn" 
+                   data-name="Chicken Biriyani" 
+                   data-price="990" 
+                   data-image="images/menu/Indian/Biryani.jpeg">Add to cart</a>
+            </div>
+            <div class="menu-item">
+                <img src="images/menu/drinks/belimal.jpeg" alt="belimal" width="200" height="200">
+                <p>Belimal</p>
+                <p>Rs.200</p>
+                <a href="#" class="add-to-cart-btn" 
+                   data-name="Belimal" 
+                   data-price="200" 
+                   data-image="images/menu/drinks/belimal.jpeg">Add to cart</a>
+            </div>
+        </div>
+
+        <div class="menu-container">
+            <div class="menu-item">
+                <img src="images/menu/desserts/caramel_pudding.jpeg" alt="caramel_pudding" width="200" height="200">
+                <p>Caramel Pudding</p>
+                <p>Rs.400</p>
+                <a href="#" class="add-to-cart-btn" 
+                   data-name="Caramel Pudding" 
+                   data-price="400" 
+                   data-image="images/menu/desserts/caramel_pudding.jpeg">Add to cart</a>
+            </div>
+            <div class="menu-item">
+                <img src="images/menu/Chinese/Chili-crisp-noodles.jpeg" alt="Chili-crisp-noodles" width="200" height="200">
+                <p>Chili Crisp Noodles</p>
+                <p>Rs.800</p>
+                <a href="#" class="add-to-cart-btn" 
+                   data-name="Chili Crisp Noodles" 
+                   data-price="800" 
+                   data-image="images/menu/Chinese/Chili-crisp-noodles.jpeg">Add to cart</a>
+            </div>
+            <div class="menu-item">
+                <img src="images/menu/appatizers/Air_fryer_zucchini.jpeg" alt="Air_fryer_zucchini" width="200" height="200">
+                <p>Air Fryer Zucchini</p>
+                <p>Rs.700</p>
+                <a href="#" class="add-to-cart-btn" 
+                   data-name="Air Fryer Zucchini" 
+                   data-price="700" 
+                   data-image="images/menu/appatizers/Air_fryer_zucchini.jpeg">Add to cart</a>
+            </div>
+        </div>
+
+        <h2 id="sub2">Customer Feedbacks</h2>
+        <div class="image-menu-2">
+            <img src="images/home/pattern_3.jpeg" alt="pattern">
+        </div>
+
+        <div class="feedback-section">
+            <div class="feedback-container">
+                <div class="feedback-item">
+                    <div class="user">
+                        <img src="images/home/feedbacks/person.svg" alt="user2" width="50" height="50">
+                        <p class="user-name">Kovindu Korala</p>
+                    </div>
+                    <p class="feedback-text">
+                        "We had a wonderful family dinner at your restaurant last night. It was great to see such a diverse menu with Sri Lankan, Indian, 
+                        and Chinese options – something for everyone! We particularly enjoyed our time at Rasa Mandir, which was very authentic and flavorful. 
+                        The service was attentive and friendly. We'll definitely be returning to try more from your menu."
+                    </p>
+                </div>
+                <div class="feedback-item">
+                    <div class="user">
+                        <img src="images/home/feedbacks/person.svg" alt="user2" width="50" height="50">
+                        <p class="user-name">Daham Arachchi</p>
+                    </div>
+                    <p class="feedback-text">
+                        "I recently used your website to place an order for delivery, and I was very impressed with how easy it was. The menu was well-organized by cuisine, 
+                        and the photos of the dishes were really helpful. The entire process, from selecting items to checkout, was smooth and quick. It made ordering our family dinner a breeze!"
+                    </p>
+                </div>
+                <div class="feedback-item">
+                    <div class="user">
+                        <img src="images/home/feedbacks/person.svg" alt="user2" width="50" height="50">
+                        <p class="user-name">Seniru Mudiyanse</p>
+                    </div>
+                    <p class="feedback-text">
+                        "We had a lovely family dinner. The authentic Sri Lankan curry was fantastic, and we appreciated the great vegetarian and 
+                        non-vegetarian choices across all cuisines. Enjoyed a wonderful family dinner. We'll be back!"
+                    </p>
+                </div>
+                <div class="feedback-item">
+                    <div class="user">
+                        <img src="images/home/feedbacks/person.svg" alt="user2" width="50" height="50">
+                        <p class="user-name">Thalha Muhammed</p>
+                    </div>
+                    <p class="feedback-text">
+                        "I had a great experience ordering food through your website. The layout is clean and intuitive, making it simple to find 
+                        exactly what we wanted from your diverse menu. Adding items to the cart and completing the order was fast and hassle-free. 
+                        This convenient online option will definitely make us order from you more often!"
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <p style="text-align: center; padding-top: 20px;">2025.<a style="text-decoration: underline;" href="restaurant_home.html">Rasa mandir.</a>All rights reserved</p>
+        </footer>
+
+        <script src="java_script/script.js"></script>
+    </body>
+</html>

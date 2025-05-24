@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contact Us</title>
+        <link rel="icon" type="image/png" href="images/global/logo.png">
+        <link rel="stylesheet" href="global_style.css">
+        <link rel="stylesheet" href="other_css_files/contact_us_style.css">
+    </head>
+
+    <body>
+         <header class="header">
+            <a href="restaurant_home.html">
+            <img src="images/global/logo.png" alt="logo" width="250" height="250">
+            </a>
+            <h1>Rasa Mandir</h1>
+            <div class="cart">
+                <div class="carticon">
+                    <a href="restaurant_cart.html">
+                        <img src="images/global/shopping_bag.svg" alt="cart" width="50" height="50">
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="restaurant_home.html">Home</a></li>
+                <li><a href="restaurant_menu.html">Menu</a></li>
+                <li><a href="restaurant_cart.html">Cart</a></li>
+                <li><a href="restaurant_aboutus.html">About Us</a></li>
+                <li><a href="restaurant_contact_us.html" class="active">Contact Us</a></li>
+            </ul>
+            <div class="hotline">
+                <span>Hotline</span>
+                <p style="padding-left: 5px;"> +94 112 349 872</p>
+            </div>    
+        </nav>
+
+        <h2 id="contact-us">Contact Us</h2>
+
+        <div class="image-menu">
+            <img src="images/contact_us/pattern_2.jpeg" alt="pattern">
+        </div>
+
+        <div class="content">
+            <div class="container">
+                <form action="mailto:yasirudilmith34@gmail.com?subject=Customer%20Inquiry" method="post" enctype="text/plain">
+                     
+                    <label for="fullname">Full name*</label>
+                    <input type="text" id="fullname" name="Full Name" required>
+                        
+                    <label for="emailaddress">Email address*</label>
+                    <input type="email" id="emailaddress" name="Email" required>
+                        
+                    <label for="phonenumber">Phone number*</label>
+                    <input type="text" id="phonenumber" name="Phone Number" required>
+
+                    <label for="message">Enter your message here*</label>
+                    <textarea name="Message" id="message" rows="5" required></textarea>
+                    
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+        
+
+        <footer class="footer">
+            <p style="text-align: center; padding-top: 20px;">2025.<a style="text-decoration: underline;" href="restaurant_home.html">Rasa mandir.</a>All rights reserved</p>
+        </footer>
+    </body>
+</html>

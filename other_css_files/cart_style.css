@@ -1,0 +1,152 @@
+#your-cart { 
+text-align: center;
+text-decoration: underline;
+color: rgb(119, 38, 38);
+font-size: 40px;
+margin-bottom: 1px;
+}
+
+.image-menu {
+display: flex;
+justify-content: center;
+}
+
+.image-menu img {
+padding-bottom: 20px;
+width: 165px;
+height: auto;
+}
+
+.cart-section {
+background-color: rgba(255, 255, 255, 0.8);
+padding: 20px 0px;
+border-radius: 10px;
+margin: 20px auto; /* Center the cart section */
+max-width: 1000px; /* Limit the width */
+box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.cart-box {
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
+
+.cart-container {
+padding: 20px;
+}
+
+.cart-table {
+width: 100%;
+border-collapse: collapse;
+font-size: 20px; /* More readable font size */
+font-weight: normal !important; /* Override global bold */
+color: #333; /* Darker text color */
+}
+
+.cart-table th {
+background-color: rgba(255, 255, 255, 0.999); /* Light background for header */
+color: rgb(119, 38, 38);
+padding: 12px;
+text-align: left; /* Align header text to the left */
+font-weight: bold;
+
+}
+
+.cart-table td {
+padding: 20px 20px; 
+vertical-align: middle;
+}
+
+
+.cart-table img {
+width: 150px; /* Smaller, more appropriate image size */
+height: auto;
+border-radius: 5px; /* Slightly rounded image corners */
+vertical-align: middle; /* Align image vertically in the cell */
+margin-right: 10px;
+}
+
+.cart-table td:nth-child(2) {
+text-align: left; /* Align product name to the left */
+}
+
+.cart-container h2 {
+text-align: right;
+margin-right: 20px;
+font-size: 24px;
+margin-top: 20px;
+color: rgb(119, 38, 38);
+font-weight: bold;
+}
+
+.cart-container h2:first-of-type {
+font-size: 20px;
+font-weight: normal;
+}
+
+.checkout {
+background-color: rgb(119, 38, 38);
+color: white;
+padding: 12px 25px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+border-radius: 5px;
+font-weight: bold;
+font-size: 18px;
+margin-top: 30px;
+float: right; /* Align checkout button to the right */
+margin-right: 20px;
+}
+
+.checkout:hover {
+background-color: black;
+}
+
+/* Clear float to prevent layout issues */
+.cart-container::after {
+content: "";
+display: table;
+clear: both;
+}
+
+.quantity {
+width: 60px;/* wider input box */
+height: 40px; /* taller box */
+font-size: 18px;        /* bigger text */
+text-align: center;     /* center the number */
+border: 2px solid #772626; /* dark border */
+border-radius: 5px;     /* rounded edges */
+background-color: #fff;
+color: #333;
+}
+
+.quantity-controls {
+display: flex;
+align-items: center;
+gap: 10px;
+justify-content: center;
+}
+
+.qty-btn {
+background-color: rgb(119, 38, 38);
+color: white;
+border: none;
+padding: 5px 12px;
+font-size: 18px;
+border-radius: 4px;
+cursor: pointer;
+font-weight: bold;
+}
+
+.qty-btn:hover {
+background-color: black;
+}
+
+.qty-value {
+min-width: 30px;
+text-align: center;
+font-size: 18px;
+}
+

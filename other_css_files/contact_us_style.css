@@ -1,0 +1,82 @@
+#contact-us{
+text-align: center; 
+text-decoration: underline; 
+color: rgb(119, 38, 38); 
+font-size: 40px;
+margin-bottom: 1px;
+}
+
+.image-menu {
+display: flex;
+justify-content: center;
+}
+
+.image-menu img {
+padding-bottom: 20px;
+width: 195px;
+height: auto;
+}
+
+.container {
+background: rgba(255, 255, 255, 0.8);
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+width: 500px;
+margin: 20px auto;
+}
+
+h2 {
+text-align: center;
+font-size: 24px;
+text-decoration: underline;
+}
+
+label {
+display: block;
+font-weight: bold;
+display: block;
+margin-top: 10px;
+}
+
+input, textarea {
+width: 95%; /* Make inputs fill the container width */
+padding: 10px; /* Add padding inside inputs */
+margin-bottom: 20px; /* Add space between fields */
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+.input-row {
+display: flex;
+gap: 10px;
+}
+
+.input-row input {
+flex: 1;
+}
+
+button {
+display: block;
+width: 100px;
+padding: 10px;
+margin: 20px auto 0;
+border: none;
+background: rgb(119, 38, 38);
+color: white;
+border-radius: 20px;
+cursor: pointer;
+}
+
+button:hover {
+background: black;
+}
+
+.content {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 20px;
+padding-bottom: 50px;
+}

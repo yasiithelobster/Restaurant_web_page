@@ -1,0 +1,140 @@
+.image-menu {
+display: flex;
+justify-content: center;
+}
+
+.image-menu img {
+padding-bottom: 20px;
+width: 150px;
+height: auto;
+}
+
+#menu{
+text-align: center;
+font-size: 45px; 
+color: rgb(119, 38, 38);
+text-decoration: underline;
+margin-bottom: 2px;
+}
+
+/* In your global_style.css or menu_style.css */
+label[for="menu-filter"] {
+font-weight: bold;
+font-size: 20px;
+font-family: 'Times New Roman';
+background-color: rgb(119, 38, 38);
+color: white;
+margin-left: 25px;
+border-radius: 5px;
+padding: 5px 10px;
+}
+
+select#menu-filter {
+background-color: rgb(119, 38, 38);
+color: white;
+border: 1px solid #ccc;
+padding: 5px 10px;
+font-size: 16px;
+border-radius: 5px;
+}
+
+select#menu-filter:hover {
+border-color: #170404;
+}
+
+select#menu-filter:focus {
+outline: none;
+border-color: #000102; /* Example focus color */
+box-shadow: 0 0 5px rgb(119, 38, 38);
+}
+
+/* menu items container */
+.menu-container {
+min-height: 200px;
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+gap: 100px;
+padding: 20px;
+}
+
+/* each menu item */
+.menu-item {
+background-color: white;
+border-radius: 10px;
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+padding: 15px;
+text-align: center;
+width: 250px;
+}
+
+.menu-item img {
+border-radius: 10px;
+width: 150px;
+height: 150px;
+}
+
+/* add to cart button */
+.menu-container a:link, .menu-container a:visited {
+background-color: rgb(119, 38, 38);
+color: rgb(255, 255, 255);
+padding: 10px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+}
+
+.menu-container a:hover,  .menu-container a:active {
+background-color: black;
+text-decoration: none;
+}
+
+.item-details {
+font-size: 18px;
+font-weight: bold;
+}
+
+/* description of the menu item */
+.description {
+font-weight: normal;
+background-color: rgba(199, 191, 191, 0.396);
+color: rgb(119, 38, 38);
+font-size: 16px;
+line-height: 1.4;
+margin-bottom: 10px;
+overflow: hidden;
+display: -webkit-box;
+-webkit-line-clamp: 1; /* Show only 2 lines initially */
+-webkit-box-orient: vertical;
+transition: -webkit-line-clamp 0.3s ease; /* Optional smooth transition */
+max-height: 4.2em; /* Approximate max height for 2 lines */
+}
+
+/* When the menu item is hovered, remove the line clamp and increase max-height */
+.menu-item:hover .description {
+-webkit-line-clamp: none;
+max-height: none; /* Allow full height */
+}
+
+
+.menu-container .add-to-cart-btn {
+background-color: rgb(119, 38, 38);
+color: rgb(255, 255, 255);
+padding: 10px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+border: none; /* Buttons usually have a default border */
+border-radius: 5px; /* If you had rounded corners */
+cursor: pointer; /* Good practice for buttons */
+font-size: inherit; /* Inherit font size from parent */
+}
+
+.menu-container .add-to-cart-btn:hover {
+background-color: black;
+text-decoration: none;
+}
+
+.menu-container .add-to-cart-btn:active {
+/* Style for when the button is actively being clicked */
+background-color: darkred; /* Example */
+}
