@@ -1,47 +1,73 @@
-# Restaurant Website - HTML/CSS/JavaScript
+# 🍽️ Restaurant Website – HTML/CSS/JavaScript
 
-This is a dynamic, multi-page restaurant website built using HTML, CSS, JavaScript, and XML. It was developed as part of my first-year coursework for the BSc (Hons) Artificial Intelligence and Data Science degree at Informatics Institute of Technology.
+A dynamic and interactive multi-page restaurant website built using **HTML**, **CSS**, **JavaScript**, and **XML**.  
+Developed as part of my first-year coursework for the **BSc (Hons) Artificial Intelligence and Data Science** degree at the **Informatics Institute of Technology (IIT)**.
 
-## 🌟 Features
+---
 
-- 🌐 **Interactive Navigation Bar** – Quickly switch between sections of the site
-- 🍔 **Menu Filtering** – Filter food items by category (e.g., Breakfast, Desserts)
-- 📝 **Online Order Form** – Users can submit orders through a form
-- ⭐ **Review on Hover** – View customer reviews by hovering over menu items
-- 🧾 **Menu from XML** – Menu items are dynamically loaded from an XML file
+## ✨ Features
 
-## 💡 Technologies Used
+- 🌐 **Responsive Navigation Bar**  
+  Smooth navigation across different sections and pages.
 
-- HTML5
-- CSS3
-- JavaScript
-- XML (for dynamic menu loading)
+- 🍽️ **Dynamic Menu Filtering**  
+  Filter dishes by categories such as *Breakfast*, *Lunch*, *Dinner*, and *Desserts*.
 
-## ⚙️ How to Run
+- 🧾 **XML-Driven Menu**  
+  Menu items are dynamically loaded from an XML file using JavaScript.
 
-> **Important:** Due to browser restrictions, the XML file won’t load properly unless served from a local server.
+- 📝 **Interactive Order Form**  
+  Users can place orders through an online form with client-side validation.
 
-### 🖥️ Option 1: Using VS Code with Live Server
+- ⭐ **Hover-Based Reviews**  
+  Customer reviews appear when hovering over menu items for a more engaging experience.
 
-1. Install the **Live Server** extension in VS Code.
-2. Open the project folder in VS Code.
-3. Right-click `index.html` → click **“Open with Live Server”**.
-4. The website will launch in your browser with full functionality.
+---
 
-### 🌐 Option 2: Manual Server
+## 🛠️ Technologies Used
+
+- **HTML5**
+- **CSS3**
+- **JavaScript (DOM Manipulation)**
+- **XML** for dynamic menu data
+
+---
+
+## ⚙️ How to Run the Website
+
+> **Note:** Browsers block XML loading when opened directly from the file system.  
+> Use a local server for full functionality.
+
+### 🖥️ Method 1: Using VS Code Live Server (Recommended)
+
+1. Install the **Live Server** extension in VS Code.  
+2. Open the project folder.  
+3. Right-click `index.html` → **Open with Live Server**.  
+4. The website will run with all features enabled.
+
+### 🌐 Method 2: Run a Manual Local Server
 
 If you're not using VS Code:
 
 ```bash
-# Python 3 simple HTTP server (run inside your project folder)
+# Run inside your project directory
 python -m http.server
 ```
-## 🧠 What I Learned
-	•	DOM manipulation with JavaScript
-	•	Using XML with JavaScript for dynamic content
-	•	Designing responsive and interactive UIs
-	•	Building and testing live web pages
+Then open:
+```
+http://localhost:8000
+```
 
+
+### 🧠 What I Learned
+
+- JavaScript DOM manipulation
+- Loading and parsing XML data dynamically
+- Designing responsive and interactive UI layouts
+- Creating multi-page websites
+- Testing and debugging web pages in a live environment
+
+  
 ## 📬 Contact
 
 GitHub: https://github.com/yasiithelobster
