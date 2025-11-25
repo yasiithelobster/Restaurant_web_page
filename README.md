@@ -1,7 +1,7 @@
 # 🍽️ Restaurant Website – HTML/CSS/JavaScript
 
 A dynamic and interactive multi-page restaurant website built using **HTML**, **CSS**, **JavaScript**, and **XML**.  
-Developed as part of my first-year coursework for the **BSc (Hons) Artificial Intelligence and Data Science** degree at the **Informatics Institute of Technology (IIT)**.
+
 
 ---
 
